@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Dane formularz</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <form>
+        <label for="imie">Imię</label><br>
+        <input type="text" id="imie" value=""><br>
+        <label for="nazwisko">Nazwisko</label><br>
+        <input type="text" id="nazwisko" value=""><br>
+        <label for="numer">Numer telefonu</label><br>
+        <input type="text" id="numer" value=""><br>
+    </form>
+
+    <button>Wyświetl dane</button>
+    <div id="container">
+        <p>Dane:</p>
+        <p id="name"></p>
+        <p id="surname"></p>
+        <p id="phone"></p>
+    </div>
+
+    <script src="js/dafo.js"></script>
+</body>
+
+</html>
